@@ -11,7 +11,7 @@
 
 访问地址 👉 [http://8.138.250.37](http://8.138.250.37) （可根据你自己的服务器域名/IP 替换）
 
-![项目预览图](https://your-screenshot-url-if-needed.png) <!-- 可替换为项目截图地址 -->
+![项目预览图]([https://your-screenshot-url-if-needed.png](https://github.com/WuheSAkura/Personal-front-end-and-back-end-testing-projects/blob/renwu/%E5%89%8D%E7%AB%AF.jpg)) <!-- 可替换为项目截图地址 -->
 
 ---
 
