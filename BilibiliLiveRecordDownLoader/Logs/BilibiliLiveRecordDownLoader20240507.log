@@ -1,0 +1,40 @@
+[2024-05-07T16:55:46.6461870+08:00] [Information] [6154037] [TitleChanged] 猪猪影院！！！！！
+[2024-05-07T16:55:46.6461868+08:00] [Information] [6154037] 直播状态："轮播"
+[2024-05-07T16:55:46.8022411+08:00] [Information] [6154037] 正在连接弹幕服务器 wss://zj-cn-live-comet.chat.bilibili.com:2245/sub
+[2024-05-07T16:55:46.9489783+08:00] [Information] [6154037] 连接弹幕服务器成功
+[2024-05-07T16:55:46.9820650+08:00] [Information] [6154037] 进房成功
+[2024-05-07T17:02:58.5355027+08:00] [Information] [6154037] [TitleChanged] 猪!!!!
+[2024-05-07T17:03:27.3294176+08:00] [Information] [6154037] 直播状态："直播"
+[2024-05-07T17:03:27.4247125+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/140059/live_194484313_8775758.m3u8?expires=1715076267&len=0&oi=3029142652&pt=web&qn=80&trid=1003b784adeea33c43b5a6ec60e2f8198e07&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=fd316276977eaff16a55ef6e0067eef3&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=4f5f111c55eb98141d8895d4b8b7e435&order=1"]
+[2024-05-07T17:03:27.4247645+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:03:32.4316935+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:03:33.5035224+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/981330/live_194484313_8775758.m3u8?expires=1715076273&len=0&oi=3029142652&pt=web&qn=80&trid=1003e180001acd534ff3839bd599a948d17b&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=e0d063a47e56b6713e6911633238c182&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=8c044b9c488ae0455d4ea7bbfe71ae3c&order=1"]
+[2024-05-07T17:03:33.5035645+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:03:38.5189761+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:03:39.6045681+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/187189/live_194484313_8775758.m3u8?expires=1715076279&len=0&oi=3029142652&pt=web&qn=80&trid=1003754e6e1c62ab4ac18466ac27f10463fb&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=96f549cf42366dd7e0b04ee9ee8343d7&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=480868d933c2076cff603fe0ad0ba3c5&order=1"]
+[2024-05-07T17:03:39.6046442+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:03:44.6160077+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:03:45.6768536+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/323716/live_194484313_8775758.m3u8?expires=1715076285&len=0&oi=3029142652&pt=web&qn=80&trid=100381c22051737b4724af63be4a627b4fde&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=04c71ed590eb482905f0fcb476ac1508&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=372ad9cc21d4b523b6b80ffabfbd481c&order=1"]
+[2024-05-07T17:03:45.6769309+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:03:50.6837610+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:03:51.8341497+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/386602/live_194484313_8775758.m3u8?expires=1715076291&len=0&oi=3029142652&pt=web&qn=80&trid=1003179d7951ab3c4fdab467f719b59b2b72&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=014af06b37b9793d5ee48bf862dbaea6&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=fab2f0c3dbe8b1916974080b76d58655&order=1"]
+[2024-05-07T17:03:51.8342108+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:03:56.8471125+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:03:57.9366120+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/723049/live_194484313_8775758.m3u8?expires=1715076297&len=0&oi=3029142652&pt=web&qn=80&trid=1003c87a963f56e24ea7b6899f8852de1362&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=a8674571f917f322b568aa8170e4e9ed&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=99c68ad1a10177bb8ca53be929ed7078&order=1"]
+[2024-05-07T17:03:57.9366703+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:04:02.9372285+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:04:04.0386237+08:00] [Information] [6154037] 直播流：["https://d1--cn-gotcha104.bilivideo.com/live-bvc/112932/live_194484313_8775758.m3u8?expires=1715076303&len=0&oi=3029142652&pt=web&qn=80&trid=1003ac9e34c18bac4f3dbfb2b7dd1c600bfe&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha104&sign=9d311f6933b6780135a81fadbb73d9db&sk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=99488907480b1680fc7bcfe88167aa07&order=1"]
+[2024-05-07T17:04:04.0386981+08:00] [Information] [6154037] 直播流格式：ts
+[2024-05-07T17:04:09.0529643+08:00] [Information] [6154037] 尝试下载直播流时发生错误 没有可用的直播地址
+[2024-05-07T17:04:10.1144035+08:00] [Information] [6154037] 直播流：["https://cn-jsnt-ct-01-23.bilivideo.com/live-bvc/863150/live_194484313_8775758/index.m3u8?expires=1715076310&len=0&oi=3029142652&pt=web&qn=80&trid=100733dee80d561442a894043f537d39a165&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha01&sign=5af2905dbf56f695cad1bc6b18723451&flvsk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&sid=cn-jsnt-ct-01-23&chash=1&bmt=1&sche=ban&bvchls=1&score=18&pp=rtmp&source=onetier&trace=911&site=2e2203ca87ed7674b4389d90f9124e80&zoneid_l=151371777&sid_l=live_194484313_8775758&order=1","https://d1--cn-gotcha204-3.bilivideo.com/live-bvc/863150/live_194484313_8775758/index.m3u8?expires=1715076310&len=0&oi=3029142652&pt=web&qn=80&trid=100733dee80d561442a894043f537d39a165&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha204&sign=b4218c5f3d46b741bc10580d78c5cf3e&p2p_type=1&sl=1&free_type=0&mid=24841081&pp=rtmp&source=onetier&trace=10&site=2e2203ca87ed7674b4389d90f9124e80&order=2"]
+[2024-05-07T17:04:10.1144349+08:00] [Information] [6154037] 直播流格式：fmp4
+[2024-05-07T17:04:10.2882272+08:00] [Information] [6154037] 选择直播地址："https://cn-jsnt-ct-01-23.bilivideo.com/live-bvc/863150/live_194484313_8775758/index.m3u8?expires=1715076310&len=0&oi=3029142652&pt=web&qn=80&trid=100733dee80d561442a894043f537d39a165&sigparams=cdn,expires,len,oi,pt,qn,trid&cdn=cn-gotcha01&sign=5af2905dbf56f695cad1bc6b18723451&flvsk=18232a4fcc82e4c037c33d7e083619b4&p2p_type=1&sl=1&free_type=0&mid=24841081&sid=cn-jsnt-ct-01-23&chash=1&bmt=1&sche=ban&bvchls=1&score=18&pp=rtmp&source=onetier&trace=911&site=2e2203ca87ed7674b4389d90f9124e80&zoneid_l=151371777&sid_l=live_194484313_8775758&order=1"
+[2024-05-07T17:04:10.2886068+08:00] [Information] [6154037] 开始录制：F:\视频\6154037\20240507_170410_fmp4.mp4
+[2024-05-07T17:06:44.9863779+08:00] [Information] [6154037] [TitleChanged] 早！！！！先来刷数字魅影
+[2024-05-07T17:14:34.7154785+08:00] [Information] [6154037] 录制结束
+[2024-05-07T17:14:34.7160235+08:00] [Information] [6154037] 录制已取消
+[2024-05-07T19:27:26.1899087+08:00] [Information] [6154037] [TitleChanged] 早！！！！先来刷数字魅影
+[2024-05-07T19:27:26.1899080+08:00] [Information] [6154037] 直播状态："直播"
+[2024-05-07T19:27:26.2826070+08:00] [Information] [6154037] 正在连接弹幕服务器 wss://zj-cn-live-comet.chat.bilibili.com:2245/sub
+[2024-05-07T19:27:26.6177548+08:00] [Information] [6154037] 连接弹幕服务器成功
+[2024-05-07T19:27:26.6931069+08:00] [Information] [6154037] 进房成功

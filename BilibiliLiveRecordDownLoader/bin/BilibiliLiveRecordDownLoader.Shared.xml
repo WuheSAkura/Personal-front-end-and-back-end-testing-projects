@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilibiliLiveRecordDownLoader.Shared</name>
+    </assembly>
+    <members>
+        <member name="P:BilibiliLiveRecordDownLoader.Shared.Interfaces.IProgress.Progress">
+            <summary>
+            进度，[0.0,1.0]
+            </summary>
+        </member>
+        <member name="P:BilibiliLiveRecordDownLoader.Shared.Interfaces.IProgress.CurrentSpeed">
+            <summary>
+            当前下载速度，单位字节
+            </summary>
+        </member>
+        <member name="P:BilibiliLiveRecordDownLoader.Shared.Interfaces.IProgress.Status">
+            <summary>
+            当前状态
+            </summary>
+        </member>
+    </members>
+</doc>

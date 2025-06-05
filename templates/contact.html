@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bili数据魔方</title>
+  <link rel="stylesheet" href="../static/css/base.css">
+  <link rel="stylesheet" href="../static/css/contact.css">
+  <script src="../static/js/echarts.min.js"></script>
+  <script src="../static/js/jq.js"></script>
+</head>
+
+
+<body>
+  <canvas class="canvas-wrap" id="triangle-lost-in-space" resize="true"></canvas>
+
+  <!-- loadding -->
+  <div class="lodding-wrap">
+    <div class="loadding-div"></div>
+  </div>
+
+  <!-- 主要页面 -->
+  <div class="box">
+
+    <!-- 顶部栏 -->
+    <div class="header borderafter">
+      <!-- 返回按钮 -->
+      <a style="position: absolute;left:50px;" href="javascript:history.back()">
+        <svg t="1649246285004" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          p-id="3737" width="20" height="20">
+          <path
+            d="M98 468.9l322.8-322.8v184.4C743.6 376.7 881.9 607.3 928 837.8 812.7 676.4 651.3 602.6 420.8 602.6v189.1L98 468.9z"
+            p-id="3738" fill="#254665"></path>
+        </svg>
+      </a>
+
+      <div class="col">
+        <span>bili数据魔方</span>
+        <!-- 右边操作栏 -->
+        <div class="header-right">
+          <!-- 按钮 -->
+          <div class="min_menu-wrap" id="minmenu">
+            <span class="min_menu"></span>
+          </div>
+          <!-- 列表 -->
+          <div class="menu_list">
+            <!-- 栏目 -->
+            <ul class="header-nav">
+              <li><a href="http://127.0.0.1:5000/">主页</a></li>
+              <li><a href="http://127.0.0.1:5000/emotions">情感</a></li>
+              <li><a href="http://127.0.0.1:5000/high">高频</a></li>
+              <li class="active"><a href="http://127.0.0.1:5000/leader">排行榜</a></li>
+              <li><a href="http://127.0.0.1:5000/blogs">录播</a></li>
+              <li><a href="http://127.0.0.1:5000/other">其他</a></li>
+            </ul>
+            <!-- 开关灯 -->
+            <span class="kaig-bottm">
+              <svg t="1649159647627" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" p-id="2250" width="15" height="15">
+                <path
+                  d="M1008.535135 710.670332l-70.446388 116.386904a112.099975 112.099975 0 0 1-140.572857 43.829042l-69.422645-17.083729c-5.502624 3.1992-11.133217 6.3984-16.763809 9.341665l-18.299425 62.896276C687.335435 981.514621 639.4754 1023.744064 582.657604 1023.744064H441.764828c-56.817796 0-104.677831-42.293427-110.308423-97.703574l-18.299425-62.896276a422.166458 422.166458 0 0 1-16.827793-9.341665l-69.614597 17.083729a112.163959 112.163959 0 0 1-140.508873-43.893026L15.631361 710.542364a107.493127 107.493127 0 0 1 32.43989-144.731817L96.251206 518.910272a410.649338 410.649338 0 0 1 0-14.204448l-48.179955-46.836291a107.365159 107.365159 0 0 1-32.375906-144.731817l70.190452-116.450888a112.099975 112.099975 0 0 1 140.572857-43.893026l69.550612 17.083729c5.566608-3.1992 11.133217-6.3984 16.827794-9.341665l18.299425-62.896276C336.831061 42.229443 384.691096 0 441.508892 0H582.529636c56.817796 0 104.677831 42.293427 110.372407 97.63959l18.235441 62.704324c5.75856 3.007248 11.325169 6.142464 16.827793 9.341665l69.678581-17.083729a112.163959 112.163959 0 0 1 140.508873 43.893026l70.446388 116.514872a107.493127 107.493127 0 0 1-32.375906 144.731817l-48.179955 46.772307a414.616346 414.616346 0 0 1 0 14.204448l48.243939 46.836291c47.092227 31.928018 62.192452 94.952262 32.247938 145.115721z m-213.066733-142.23644l3.391152-31.032242a246.210447 246.210447 0 0 0 0-51.699076l-3.263184-30.904274 93.992502-91.305173-53.554612-88.553862-131.615096 32.311922-23.546113-16.059985a294.134466 294.134466 0 0 0-48.627844-26.809297l-27.513121-11.901025L568.453156 127.968008H455.649356L419.370426 252.736816l-27.705074 11.965009c-16.635841 7.166208-32.951762 16.187953-48.499875 26.745313l-23.610097 15.996001-131.487128-32.247938-53.36266 88.489878 94.056486 91.433141-3.263184 30.968258a247.874031 247.874031 0 0 0 0 51.699076l3.1992 30.904274-93.928518 91.369157 53.554612 88.489878 131.551112-32.311922 23.610097 16.059985c15.292177 10.429393 31.544114 19.451137 48.563859 26.809297l27.577106 11.965009L455.905292 895.776056h112.611848l36.342914-124.768808 27.64109-11.965009c16.699825-7.166208 32.951762-16.187953 48.563859-26.745313l23.546113-15.996001 131.423144 32.247938 53.68258-88.745814-94.184454-91.369157zM512.147232 615.846038c57.329668 0 103.846038-46.516371 103.974006-103.974006 0-57.329668-46.644339-103.974006-103.974006-103.974007S408.173225 454.542364 408.173225 511.872032 454.817564 615.846038 512.147232 615.846038z m0 127.968008c-127.968008 0-231.942014-103.910022-231.942015-231.942014 0-127.968008 103.910022-231.942014 231.942015-231.942015 127.968008 0 231.942014 103.910022 231.942014 232.133967A232.133967 232.133967 0 0 1 512.147232 743.814046z"
+                  p-id="2251"></path>
+              </svg>
+              <!-- 开关按钮 -->
+              <span class="my-radio active" id="myRadio">
+                <i></i>
+              </span>
+              <svg t="1649159678284" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                xmlns="http://www.w3.org/2000/svg" p-id="3376" width="15" height="15">
+                <path
+                  d="M505.4 878.6c-196.7 0-358-150.9-374.9-343.1 1-18.6 16.1-33.4 34.9-33.4 10.8 0 20.5 4.8 26.9 12.4 0.2 0.3 0.5 0.1 0.5-0.7 41.6 44.2 100.5 71.9 166.1 71.9 127.1 0 230.1-103 230.1-230.1 0-66.1-28-125.1-72.6-166.8 0.1-0.1 0.5-0.1 0.3-0.3-7-6.5-11.4-15.7-11.4-26.1 0-19 14.9-34.1 33.7-35.3 192.1 17.1 342.9 178.3 342.9 375 0 208-168.5 376.5-376.5 376.5z"
+                  p-id="3377"></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 顶部导航 -->
+    <div class="navigation">
+      <div class="nav-titleBox co zz">
+        <!-- 占位符 -->
+        <div class="co-left"></div>
+        <!-- 标题 -->
+        <div class="co-right">
+          <span class="titleBox-tag">CONTACT!</span>
+          <h1>
+            Action speak louder than words .
+          </h1>
+          <a class="buttom navbtn" href="#next-one">请查看信息吧！
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 主要修改部分 -->
+    <div class="content zz">
+      <!-- 占位符 -->
+      
+      <!-- 主要内容部分 -->
+
+      <div id="1232" style="width: 1400px;height:900px;"></div>
+      
+      </style>
+      <script type="text/javascript">
+        // function barGraph() {
+          var myChart = echarts.init(document.getElementById('1232'));
+          var cate = [
+            "线下去找骗癌症妈妈救命钱的网红，我被打了。",
+            "《崩坏：星穹铁道》知更鸟角色PV——「孤独摇摆」",
+            "当你弹琴时遇到了原唱 曲名:Lose Control  歌手:Teddy Swims 钢琴家:Emilio Piano 翻译:音乐小巢",
+            "四菜一汤教程",
+            "被克格勃策反的理由可以有多离谱？【硬核狠人66】",
+            "吃亏是福？我爸总吃亏，被上汽大众赞助一台车",
+            "[MV]河南说唱之神-工厂",
+            "《太奶の魂环》",
+            "历时一年多，我居然真的用草莓上的籽种出了草莓！",
+            "下集家人们想看王妈还是继续当老师！",
+            "【卢克文工作室】捞女在今天的中国是怎样的存在？",
+            "你看懂过了吗？",
+            "制作夺走生命的吊坠，一诺想害人？",
+            "最早do脸的明星 现在怎么样了？",
+            "弗利萨大人大驾光临地球",
+            "欠它一次出场费，我决定救它一命！",
+            "好了，以后没教室了，不更新了。",
+            "长辈刻在DNA里的东西",
+            "当我在漫展吹角色的主题曲",
+            "当你成了受害者：遍地都是《受害者有罪论》",
+            "幸福了…幸福疯了！",
+            "烤肉太烫怎么办",
+            "考考你，怎么样衔接才完美？",
+            "【方舟测评#39】 新神已至！满潜专九维什戴尔数据与实战测评",
+            "为了COS爱莉希雅卖花，彻底碎掉了…！",
+            "我终于来点燃上海了～",
+            "大型纪录片之《漫展显眼包》",
+            "【水果猎人】网络热门水果鉴定57",
+            "华晨宇看日出演唱会15分钟《向阳而生》（日出live版）",
+            "出声就死"
+          ];
+          var barData = [4599507, 2968741, 2604894, 5406166, 2666697, 1574390, 2241112, 2950753, 3789900, 5670627, 1383676, 969499, 2285910, 2022817, 1742400, 753195, 2532290, 1625939, 1190227, 610972, 2430181, 2223290, 1905271, 771449, 685839, 1185721, 2916611, 1027164, 971135, 1570441];
+          var option;
+          option = {
+            title: {
+              text: "B站播放量日排行榜top30"
+            },
+            tooltip: {
+              trigger: "axis",
+              axisPointer: {
+                type: "shadow",
+              },
+            },
+            //图表位置
+            grid: {
+              left: "5%",
+              right: "2%",
+              bottom: "3%",
+              containLabel: true,
+            },
+            //X轴
+            xAxis: {
+              type: "value",
+              axisLine: {
+                show: false,
+              },
+              axisTick: {
+                show: false,
+              },
+              //不显示X轴刻度线和数字
+              splitLine: { show: false },
+              axisLabel: { show: false },
+            },
+            yAxis: {
+              type: "category",
+              data: cate,
+              //升序
+              inverse: true,
+              splitLine: { show: false },
+              axisLine: {
+                show: false,
+              },
+              axisTick: {
+                show: false,
+              },
+              //key和图间距
+              offset: 10,
+              //动画部分
+              animationDuration: 300,
+              animationDurationUpdate: 300,
+              //key文字大小
+              nameTextStyle: {
+                fontSize: 5,
+              },
+            },
+            series: [
+              {
+                //柱状图自动排序，排序自动让Y轴名字跟着数据动
+                realtimeSort: true,
+                name: "播放量",
+                type: "bar",
+                data: barData,
+                barWidth: 14,
+                barGap: 10,
+                smooth: true,
+                valueAnimation: true,
+                //Y轴数字显示部分
+                label: {
+                  normal: {
+                    show: true,
+                    position: "right",
+                    valueAnimation: true,
+                    offset: [5, -2],
+                    textStyle: {
+                      color: "#333",
+                      fontSize: 13,
+                    },
+                  },
+                },
+                itemStyle: {
+                  emphasis: {
+                    barBorderRadius: 7,
+                  },
+                  //颜色样式部分
+                  normal: {
+                    barBorderRadius: 7,
+                    color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+                      { offset: 0, color: "#3977E6" },
+                      { offset: 1, color: "#37BBF8" },
+                    ]),
+                  },
+                },
+              },
+            ],
+            //动画部分
+
+            animationDuration: 0,
+            animationDurationUpdate: 3000,
+            animationEasing: "linear",
+            animationEasingUpdate: "linear",
+          };
+
+          // 使用刚指定的配置项和数据显示图表。
+          myChart.setOption(option);
+
+          // 监听窗口大小变化，调整图表尺寸
+          window.addEventListener("resize", function () {
+            myChart.resize();
+          });
+        // }
+
+        // 页面加载完成后执行 barGraph 函数
+        window.onload = barGraph;
+      </script>
+
+      
+    </div>
+  </div>
+</body>
+
+<script src="../static/js/base.js"></script>
+<script type="text/javascript" src="../static/js/paper-full.min.js"></script>
+<script type="text/javascript" src="../static/js/canvas.js"></script>
+
+</html>
