@@ -6,7 +6,7 @@
 #### 相关技术
 - paper-full.min粒子插件
 
-
+感谢BilibiliLiveRecordDownLoader开源项目
 
 
 根目录终端输入    python app.py         即可运行
